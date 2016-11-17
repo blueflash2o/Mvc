@@ -16,7 +16,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
         private ExceptionDispatchInfo _exceptionDispatchInfo;
 
         /// <summary>
-        /// Instantiates a new <see cref="ActionExecutingContext"/> instance.
+        /// Instantiates a new <see cref="ActionExecutedContext"/> instance.
         /// </summary>
         /// <param name="actionContext">The <see cref="ActionContext"/>.</param>
         /// <param name="filters">All applicable <see cref="IFilterMetadata"/> implementations.</param>
